@@ -5,7 +5,6 @@ use App\Http\Controllers\PostController;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
-use Auth;
 use Illuminate\Support\Facades\Auth as FacadesAuth;
 
 Route::get('/', function () {

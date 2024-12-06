@@ -6,7 +6,6 @@ use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\Facades\Auth as FacadesAuth;
-use Auth;
 
 class PostController extends Controller
 {

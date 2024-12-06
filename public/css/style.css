@@ -1,0 +1,133 @@
+.body{
+    background-color: cadetblue;
+    font-family:sans-serif;
+}
+.CreatePost{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+.stickybar{
+    border-bottom: 1px solid#000;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 0 0 rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    background-color: azure;
+}
+.Pname{
+    color: cadetblue;
+    font-size: x-large;
+    text-decoration: none;
+}
+.Pname:hover{
+    color: #000 ;
+    cursor: pointer;
+}
+Button{
+    display: inline-block;
+    background-color: azure;
+    color: cadetblue;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    background-color: azure;
+    
+}
+Button:hover{
+    background-color: cadetblue;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    border-radius: none;
+}
+.authButtons{
+    display: inline;
+    margin-left: 90%;
+    margin-top: 5%;
+    align-items: center;
+}
+input{
+    background-color: azure;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: x-large;
+}
+.registerForm{
+    text-align: center;
+}
+.registration{
+    padding: 10px;
+    display: none;
+}
+#loginform{
+    padding: 10px;
+    display: none;
+}
+.PostButtons{
+    display: flex;
+    justify-content: right;
+}
+.deleteBtn{
+    margin-top: 9px;
+    margin-left: 7px;
+    background-color: transparent;
+    border: 2px solid dodgerblue;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: large;
+    padding: 5px;
+    box-shadow: none;
+}
+.deleteBtn:hover{
+    color: #fff;
+    background-color: red;
+    border: 2px solid #fff;
+}
+.editBtn{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid dodgerblue;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: large;
+    border-radius: 7px;
+    padding: 5px;
+}
+.editBtn:hover{
+    background-color: dodgerblue;
+    border: 2px solid #fff;
+}
+
+.CreatePost{
+    font-family: sans-serif;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    background-color: cadetblue;
+}
+.saveBtn{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: large;
+    padding: 5px;
+    box-shadow: none;
+    margin-left: 90%;
+}
+.saveBtn:hover{
+    background-color: green;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.postsinfo{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.postsinfo,input{
+    margin-right: 10px;
+}
